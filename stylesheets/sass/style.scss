@@ -1,0 +1,50 @@
+@import "compass/reset";
+@font-face {
+  font-family:"Helvetica-Normal";
+  src: url(../../font/Helvetica-Neue-Cyr/HelveticaNeueCyr-Light.otf);
+}
+.wrapp{
+  width: 1024px;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+}
+header{
+  height: 43px;
+  width: 100%;
+  background-color: #f0f2f4;
+}
+.fb-logo a{
+  float: right;
+  width: 18px;
+  height: 26px;
+  margin-top: 7px;
+  padding-left: 8px;
+  border-radius: 3px;
+  background-color: #1287bf;
+  .fa-facebook{
+    color: #fff;
+    line-height: 26px;
+    text-align: center;
+  }
+}
+.hd a{
+  width: 180px;
+  height: 100%;
+  float: right;
+  text-align: center;
+  border-left: 1px solid #e2e2e2;
+  span, .fa-envelope, .fa-mobile{
+    line-height: 43px;
+    font-size: 15px;
+    color: #424242;
+  }
+  span{
+    font-family: "Helvetica-Normal", sans-serif;
+    margin-left: 8px;
+  }
+  .fa-mobile{
+    font-size: 18px;
+  }
+}
